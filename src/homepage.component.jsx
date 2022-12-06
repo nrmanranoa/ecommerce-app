@@ -1,37 +1,31 @@
 import React from 'react';
 import './homepage.styles.scss'
 
-const HomePage = () => {
+const Homepage = () => {
     return(
         <div className='homepage'>
             <div className='directory-menu'>
                 <div className='menu-item'>
                     <div className='content'>
-                        <h1 className='title'>Pants</h1>
+                        <h1 className='title'>Spring fragrances</h1>
                         <span className='subtitle'>SHOP NOW</span>
                     </div>
                 </div>
                 <div className='menu-item'>
                     <div className='content'>
-                        <h1 className='title'>HATS</h1>
+                        <h1 className='title'>Summer fragrances</h1>
                         <span className='subtitle'>SHOP NOW</span>
                     </div>
                 </div>
                 <div className='menu-item'>
                     <div className='content'>
-                        <h1 className='title'>HATS</h1>
+                        <h1 className='title'>Fall fragrances</h1>
                         <span className='subtitle'>SHOP NOW</span>
                     </div>
                 </div>
                 <div className='menu-item'>
                     <div className='content'>
-                        <h1 className='title'>HATS</h1>
-                        <span className='subtitle'>SHOP NOW</span>
-                    </div>
-                </div>
-                <div className='menu-item'>
-                    <div className='content'>
-                        <h1 className='title'>HATS</h1>
+                        <h1 className='title'>Winter fragrances</h1>
                         <span className='subtitle'>SHOP NOW</span>
                     </div>
                 </div>
@@ -40,4 +34,4 @@ const HomePage = () => {
     )
 }
 
-export default HomePage;
+export default Homepage;
